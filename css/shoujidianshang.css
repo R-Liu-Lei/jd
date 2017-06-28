@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: #eae8e8;
+}
+
+.tou{
+    width: 6.4rem;
+    height: 1rem;
+    margin: 0 auto;
+    background: #f0f0f0;
+    border-bottom: 0.01rem solid #c4c4c4;
+}
+.tou h3 a:nth-child(1){
+    float: left;
+}
+.tou h3 a:nth-child(2){
+    float: right;
+}
+.tou h3{
+    font-size: 0.36rem;
+    text-align: center;
+    margin: 0 0.43rem;
+    line-height: 1rem;
+}
+
+.box{
+    width: 6.4rem;
+    height: 0.7rem;
+}
+.box>ul>li{
+    width: 2.12rem;
+    text-align: center;
+    font-size: 0.36rem;
+    line-height: 0.7rem;
+    position: relative;
+    float: left;
+}
+.box>ul::after{
+    content: "";
+    clear: both;
+    width: 0;
+    height: 0;
+}
+.box>ul>li>a{
+    color: grey;
+}
+.box .er{
+    position: absolute;
+    top: 0.7rem;
+    left: 0;
+    overflow: hidden;
+    display: none;
+    z-index: 9999;
+}
+.box .er a{
+    width: 2.34rem;
+    display: block;
+    font-size: 0.36rem;
+    color: white;
+    background: rgba(0,0,0,0.8);
+}
+.box>ul>li:nth-child(2){
+    border-left: 0.01rem solid #eaeaea;
+    border-right: 0.01rem solid #eaeaea;
+}
+
+
+.banner{
+    width: 6.4rem;
+    height: 3.1rem;
+    overflow: hidden;
+    position: relative;
+}
+.banner .pic{
+    width: 25.6rem;
+    height: 3.1rem;
+    overflow: hidden;
+    transition: transform 0.2s linear;
+}
+.banner .pic li{
+    width: 6.4rem;
+    height: 3.1rem;
+    float: left;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.num{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.1rem;
+}
+.num li{
+    border-radius: 50%;
+    margin-right: 0.1rem;
+    width: 0.2rem;
+    height: 0.2rem;
+    background: gainsboro;
+    float: left;
+}
+.banner .num .bianse{
+    background: red;
+}
+
+.txt{
+    height: 1.88rem;
+    background: white;
+}
+.txt ul::after{
+    content: "";
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.txt li{
+    width: 1.6rem;
+    float: left;
+    text-align: center;
+}
+.txt li p{
+    font-size: 0.36rem;
+}
+
+.pic{
+    width: 6.4rem;
+}
+.pic li{
+    width: 3.0rem;
+    height: 1.2rem;
+    text-align: center;
+    line-height: 1.0rem;
+    background: white;
+    padding: 0.1rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+.zb{
+    width: 6.22rem;
+    margin: 0 auto;
+}
+.zb img{
+    width: 6.22rem;
+}
+.dibu{
+    width: 6.4rem;
+}
+.dibu img{
+    width: 6.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
